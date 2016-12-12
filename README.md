@@ -19,12 +19,12 @@ Um branch, contem exatamente o que existe dentro do master (sua origem) porém, 
 
 Depois de entendermos que ao criar nossos repositórios estamos na nossa default (master) e que vamos criar os branchs a partir dela, basta utilizar o comando de criação:
 
-git branch NomeDaBranch
+**git branch NomeDaBranch**
 
 Assim, tudo o que está na nossa master estará também contido na nossa branch nova!
 Para verificar se tudo deu certo, basta utilizarmos o comando:
 
-git branch
+**git branch**
 
 E todas as branchs serão listadas, note que teremos um asterisco na branch master, isso significa que estamos na branch master e não na branch nova que criamos.
 
@@ -33,7 +33,7 @@ E todas as branchs serão listadas, note que teremos um asterisco na branch mast
 Então como começamos a trabalhar na nossa branch nova?
 Para mudarmos de branch, utilizamos o comando checkout
 
-git checkout NomeDaBranch
+**git checkout NomeDaBranch**
 
 Novamente, utilize o **git branch**, verá o asterisco agora na branch nova!
 
@@ -46,11 +46,11 @@ Basta utilizarmos o add ., commit -m e push normalmente, com apenas uma diferen�
 
 Para o push, vamos utilizar o:
 
-git push origin(remote que estamos utilizando) NomeDaBranch
+**git push origin**(remote que estamos utilizando) **NomeDaBranch**
 
 Verifique se deu certo, ao finalizarmos os trabalhos e subirmos para o github, vamos dar um merge na master para que fique tudo emparelhado (master e branch), para isso, utilizamos o comando:
 
-git merge NomeDaBranch
+**git merge NomeDaBranch**
 
 
 As branchs serão "mergeadas"
@@ -67,7 +67,7 @@ O rebase transporta os commits de uma branch atualizada para uma branch desatual
 
 Para isso utlizamos o comando:
 
-git rebase master (a partir da branch que vc quer nivelar)
+**git rebase master** (a partir da branch que vc quer nivelar)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
